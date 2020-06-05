@@ -1,0 +1,1 @@
+This Gym train environment can be used to train reinforcement learning agents. Although it was implemented to first try the applicability of reinforcement learning, it was not finished because the project switch to an genetic optimization approach. Feel free to extend on the already implemented environments.
