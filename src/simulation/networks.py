@@ -1,4 +1,51 @@
-class STAR_5S_2L_01(object):
+class DebugNetwork(object):
+    NETWORK_CAPACITY = [
+        [10, 1],
+        [1, 10],
+
+
+    ]
+
+    NETWORK_DISTANCE = [
+        [0, 60000],
+        [60000, 0],
+    ]
+
+    NETWORK_ID = [
+        ['sA', 'tAB'],
+        ['tAB', 'sB'],
+    ]
+
+    STATION_POSITION = [
+        (100, 100),
+        (6000, 100),
+    ]
+
+    STATION_DEST_FACTOR = [
+        1.0,
+        1.0,
+    ]
+
+    MAX_PASSENGERS_PER_H = 200
+
+    TRAIN_CAPACITY = 600
+    TRAIN_MAX_SPEED = 44  # m/s
+
+    STATION_MAX_PAS_PER_H = []
+
+    LINES = [
+        ('tlAB', [
+            ('sA', 1.0), ('tAB', None), ('sB', 1.0), ('_ta', 'sB'),
+            ('sB', 1.0), ('tAB', None), ('sA', 1.0), ('_ta', 'sA')
+        ]),
+        ('tlBA', [
+            ('sB', 1.0), ('tAB', None), ('sA', 1.0), ('_ta', 'sA'),
+            ('sA', 1.0), ('tAB', None), ('sB', 1.0), ('_ta', 'sB')
+        ])
+    ]
+
+
+class STAR_6S_2L_01(object):
     NETWORK_CAPACITY = [
         # A  B  C  D  E  F
         [2, 1, 0, 0, 0, 0],
