@@ -1,3 +1,5 @@
+![alt text](https://github.com/iareust/train_schedule_optimization/blob/master/architecture.png)
+
 # Cleaned Code Repository of the Bachelor Thesis 
 Code Repository for the Bachelor Thesis on "Train Schedule Optimization with focus on Robustness"
 
