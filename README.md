@@ -1,4 +1,4 @@
-# Cleaned Code Repository of the Bachelor Thesis "
+# Cleaned Code Repository of the Bachelor Thesis 
 Code Repository for the Bachelor Thesis on "Train Schedule Optimization with focus on Robustness"
 
 The src Folder contains all relevant components. It is structured in the following 6 submodules
